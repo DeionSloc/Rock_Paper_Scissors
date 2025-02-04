@@ -34,6 +34,7 @@ function getHumanChoice(){
 }
 
 function playGame(humanChoice, computerChoice){
+    return function playRound(humanChoice, computerChoice){
         if (humanSelection == "Rock" && computerSelection == "Scissors")
                 {
                     humanScore ++;
@@ -68,13 +69,13 @@ function playGame(humanChoice, computerChoice){
                                     }
 
 }
+}
 const humanSelection = getHumanChoice();
 const computerSelection = getComputerChoice();
 
-
 // console.log(getComputerChoice(3))
 // console.log(getHumanChoice())
-console.log(playGame());
+console.log(playGame()(humanSelection, computerSelection));
 console.log("Your score is " + humanScore)
 console.log("The computer's score is " + computerScore)
 
