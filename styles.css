@@ -3,10 +3,14 @@ body {
     display: flex;
     justify-content: center;
     justify-items: center;
+    font-family:'Courier New', Courier, monospace;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1 {
     color: lightslategray;
+    font-size: 7.2em;
 }
 
 button {
@@ -25,4 +29,44 @@ button {
     flex-direction: row;
     justify-content: center;
     justify-items: center;
+    margin-bottom: 3em;
+}
+
+.game button{
+    font-size: 2.5em;
+    cursor: pointer;
+    background-color: blanchedalmond;
+    transition: background-color 0.5s ease;
+}
+
+.game button:hover{
+    background-color: coral;
+}
+
+.playerDisplay {
+    font-size: 1.5em;
+    display: flex;
+    margin: 1em;
+    font-size: 2em;
+    color: black;
+}
+
+.computerDisplay {
+    font-size: 1.5em;
+    display: flex;
+    margin: 1em;
+    font-size: 2em;
+    color: black;
+}
+
+.resultsDisplay {
+    font-size: 1.5em;
+    display: flex;
+    margin: 1em;
+    font-size: 2em;
+    color: black;
+}
+
+.scoreDisplay {
+    font-size: 2em;
 }

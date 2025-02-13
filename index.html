@@ -9,15 +9,23 @@
 </head>
 <body>
     <div class="container">
-        <h1>Rock, Paper, Scissors</h1>
+        <h1>Rock Paper Scissors</h1>
         <div class="game">
-            <button class="rock">Rock</button>
-            <button class="paper">Paper</button>
-            <button class="scissors">Scissors</button>
+            <button onclick="playGame('rock')">Rock</button>
+            <button onclick="playGame('paper')">Paper</button>
+            <button onclick="playGame('scissors')">Scissors</button>
         </div>
+
+        <div class="playerDisplay">Player: </div>
+        <div class="computerDisplay">Computer: </div>
+        <div class="resultsDisplay"></div>
+
     </div>
-    <div class="score">
-        
+    <div class="scoreDisplay">Player Score:
+        <span class="playerScoreDisplay">0</span>      
+    </div>
+    <div class="scoreDisplay">Computer Score:
+        <span class="computerScoreDisplay">0</span>      
     </div>
 </body>
 </html>
