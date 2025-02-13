@@ -16,22 +16,22 @@ function getComputerChoice(max){
     }
 }
 
-function getHumanChoice(){
-   let humanChoice = prompt("Selcect rock, paper, or scissors")
+// function getHumanChoice(){
+//    let humanChoice = prompt("Selcect rock, paper, or scissors")
 
-    if (humanChoice == "rock")
-        {
-            return "Rock"
-        }
-        if (humanChoice == "paper")
-            {
-                return "Paper"
-            }   
-        else if(humanChoice == "scissors")
-        {
-            return "Scissors"
-        }
-}
+//     if (humanChoice == "rock")
+//         {
+//             return "Rock"
+//         }
+//         if (humanChoice == "paper")
+//             {
+//                 return "Paper"
+//             }   
+//         else if(humanChoice == "scissors")
+//         {
+//             return "Scissors"
+//         }
+// }
 
 function playGame(){
         return function playRound(humanChoice, computerChoice){

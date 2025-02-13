@@ -1,0 +1,28 @@
+body {
+    background-color: peachpuff;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+h1 {
+    color: lightslategray;
+}
+
+button {
+    display: flex;
+    border-radius: 0.25em;
+    border: 0.1em solid #000000;
+    margin: 0.5em;
+    width: 7em;
+    height: 1.5em;
+    justify-content: center;
+    justify-items: center;
+}
+
+.game {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+}
